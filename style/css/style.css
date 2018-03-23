@@ -1,7 +1,17 @@
-.azin {
-  color: red; }
+.search {
+  border-radius: 50px;
+  margin-top: 60px;
+  width: 400px; }
+  .search-item {
+    margin-left: 80%;
+    position: absolute;
+    margin-top: -25px; }
 
-.pink {
-  color: green; }
+.nav-container {
+  margin-top: 30px;
+  height: 50px; }
+  .nav-container-item {
+    padding-left: 30px;
+    line-height: 1.8; }
 
 /*# sourceMappingURL=style.css.map */

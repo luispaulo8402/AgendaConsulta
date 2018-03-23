@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ;EACJ,MAAM,EAAE,mBAAmB;EAC3B,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI",
+"sources": ["../scss/medico.scss"],
+"names": [],
+"file": "medico.css"
+}
