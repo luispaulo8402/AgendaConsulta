@@ -6,4 +6,24 @@
     margin: 20px;
 }
 
-@import 'style';
+
+.info{
+    text-align: center;
+    &-item{
+        width: 150px;
+        &--icon{
+            margin-right: 10px;
+        }
+    }
+}
+
+.medico{
+    margin-top: 5%;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+.nav-container{
+    margin-top: 0;
+}

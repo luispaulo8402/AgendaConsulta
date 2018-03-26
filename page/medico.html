@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-10 col-lg-8">
-                <form>
+                <form class="medico">
                     <div class="form-row">
                         <div class="form-group col-sm-6">
                             <label for="inputNome">Seu Nome</label>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="inputSobre">Sobrenome</label>
-                            <input class="form-control" type="text">
+                            <input class="form-control" type="text" placeholder="Sobrenome">
                         </div>
                     </div>
                     <div class="form-row">   
@@ -78,12 +78,49 @@
                         </div>
                         <div class="form-group col-sm-2">
                             <label for="inputCep">Cep</label>
-                            <input class="form-control" type="text">
+                            <input class="form-control" type="text" placeholder="Cep">
                         </div>
                     </div>
+                    <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label for="inputTel">Telefone 1</label>
+                                <input class="form-control" type="text" placeholder="Telefone 1">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label for="inputTel2">Telefone 2</label>
+                                <input type="text" class="form-control" placeholder="Telefone 2">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label for="inputCrm">CRM</label>
+                                <input class="form-control" type="text" placeholder="Crm">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="inputEmail">Email</label>
+                                    <input class="form-control" type="text" placeholder="Cidade">
+                                </div>
+                                <div class="form-group col-sm-4">
+                                        <label for="inputEspec">Especialidade</label>
+                                        <select class="form-control" name="" id="">
+                                            <option selected>Selecione</option>
+                                            <option value="">Cardiologia</option>
+                                            <option value="">Infectologia</option>
+                                            <option value="">Fonoaudiologia</option>
+                                            <option value="">Ginecologia</option>
+                                            <option value="">Gastroenterologia</option>
+                                        </select>
+                                    </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="inputDat">Data de Nascimento</label>
+                                    <input class="form-control" type="text" placeholder="Data de nascimento">
+                                </div>
+                            </div>
+                       
                     <div class="form-row">    
-                        <div class="form-group col-sm-12">
-                            <button class="btn btn-success" type="submit">Enviar</button>
+                        <div class="form-group col-sm-12 info">
+                            <button class="btn btn-success info-item" type="submit"><i class="fa fa-paper-plane-o info-item--icon" aria-hidden="true"></i>
+                            Cadastrar</button>
                         </div>
                     </div>
                 </form>
