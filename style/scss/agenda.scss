@@ -1,0 +1,18 @@
+@import 'paciente';
+
+.agenda{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.button-agenda{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btncad{
+    width: 75%;
+    &-item{
+        margin-right: 5px;
+    }
+}
