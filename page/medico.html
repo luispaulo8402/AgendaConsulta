@@ -10,30 +10,32 @@
     <title>Agenda de Consultas</title>
 </head>
 <body>
-   <div class="container">
-        <nav class="nav navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand azin" href=""><i class="fa fa-user-md" aria-hidden="true"></i>
-                Cadastro de Médicos</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
-                <i class="fa fa-bars" aria-hidden="true"></i>    
-            </button>
-            <div class="collapse navbar-collapse" id="#navMenu">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                       <a class="nav-link" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="paciente.html">Pacientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" id="dropAgenda" data-toggle="dropdown" href="">Agenda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Observações</a>
-                    </li>
-                </ul>
-            </div>
-        </nav> 
+        <nav class="nav navbar-expand-lg navbar-dark bg-dark nav-container">
+                <h3 class="navbar-brand nav-container-item" href="">Consultório Médico</h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>    
+                </button>
+                <div class="collapse navbar-collapse" id="#navMenu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                           <a class="nav-link" href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>
+                            Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../page/paciente.html"><i class="fa fa-user" aria-hidden="true"></i>
+                                Pacientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="dropAgenda" data-toggle="dropdown" href=""><i class="fa fa-calendar" aria-hidden="true"></i>
+                                Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><i class="fa fa-file" aria-hidden="true"></i>
+                                Observações</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-10 col-lg-8">
@@ -87,41 +89,40 @@
                     </form>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12"><hr></div>
-                <div class="col-sm-4">
-                    <h3>Instituição</h3>
-                    <a href="">Quem somos</a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="">Missão</a>
-                    <a href="">Visão</a>
-                    <a href="">Valores</a>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Siga-nos</h3>
-                    <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
-                    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
-                    <i class="fa fa-youtube fa-3x" aria-hidden="true"></i>
-
-                </div>
-            </div>
+         
         </div>        
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col-4">
-                    <h4>Institucional</h4>
-                    <a class="nav-link">Quem somos</a>
+        <div class="jumbotron jumbotron-fluid bg-dark jumbo-rod">
+                <div class="container">
+                    <ul class="nav">
+                        <div class="col">
+                                <li class="nav-item jumbo">
+                                        <h4>Instituicional</h4>
+                                        <a class="nav-link active" href="#">Visão</a>
+                                        <a href="" class="nav-link">Missão</a>
+                                        <a href="" class="nav-link">Valores</a>
+
+                                   </li>
+                        </div>
+                   <div class="col">
+                        <li class="nav-item jumbo">
+                                <h4>Contato</h4>
+                                <h4 class="sac">Sac:11 12345678</h4>
+                                <h4 class="news">E-mail</h4>
+                                    <input class="form-control email" type="email" value="seu@email.com.br" id="example-email-input"><i class="fa fa-envelope icon-email" aria-hidden="true"></i>                            </li>
+                   </div>
+                <div class="col">
+                        <li class="nav-item jumbo">
+                                <h4>Siga nos</h4>
+                                <i class="fa fa-facebook-square face" aria-hidden="true"></i>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-youtube-play text-danger" aria-hidden="true"></i>
+                               
+                            </li>
                 </div>
-                <div class="col-4">
-                    opa
-                </div>
-                <div class="col-4">
-                    <h4>Siga nos</h4>
+                
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
